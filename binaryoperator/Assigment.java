@@ -5,7 +5,6 @@ public class Assigment {
         int angka = 10;
         String nama = "Edward marcel";
 
-
         int x = 5;
         x += 3;
         System.out.println("Nilai x Setelah += 3 adalah" + x);

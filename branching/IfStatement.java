@@ -17,16 +17,18 @@ public class IfStatement {
             namaHari = "Senin";
         } else if (nomorHari == 3) {
             namaHari = "Selasa";
-        } else if (nomorHari == 5) {
+        } else if (nomorHari == 4) {
             namaHari = "Rabu";
-        } else if (nomorHari == 6) {
+        } else if (nomorHari == 5) {
             namaHari = "Kamis";
-        } else if (nomorHari == 7) {
+        } else if (nomorHari == 6) {
             namaHari = "Jumat";
-        } else if (nomorHari == 8) {
+        } else if (nomorHari == 7) {
             namaHari = "Sabtu";
-        } else if (nomorHari == 9) {
+        }else{
+            System.out.println("Aplikasi hanya dapat dijalankan Jika anda dalam kindisi sadar dan tanpa pengaruh alkohol");
+            System.exit(0);
         }
-
+        System.out.println("nama hari : " + namaHari);
     }
 }
